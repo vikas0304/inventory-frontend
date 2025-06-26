@@ -1,5 +1,5 @@
 
-# Next.js Project with Dark Mode (shadcn/ui + next-themes)
+# Full-Stack ERP Software with `next.js 15`
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -81,6 +81,15 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+```
+###### **`suppressHydrationWarning`**
+```
+The "suppressHydrationWarning" prop is an escape hatch provided by the React DOM package to silence hydration warnings in specific cases where developers are aware of the unavoidable hydration mismatch errors and have deemed them harmless.
+```
+
+###### **`suppressHydrationWarning`**
+```
+**`"disableTransitionOnChange"`** helps to prevent annoying animations or flickers when you switch between light and dark modes.
 ```
 
 ### 4. You can use it directly in header or wherever you want just paste the code there. But here i created a new component named as **`components/ui/mode-toggle.jsx`**.
