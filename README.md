@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
-### 4. Create a Theme Toggle Button
+### 4. You can use it directly in header or wherever you want just paste the code there. But here i created a new component named as **`components/ui/mode-toggle.jsx`**.
 
 **`components/ui/mode-toggle.jsx`**
 ```jsx
@@ -122,7 +122,7 @@ export function ModeToggle() {
 }
 ```
 
-### 5. Use `<ModeToggle />` in Your Header
+### 5. Use `<ModeToggle />` in Your `Header` or `navbar`. Here I am using it in my **`components/site-header.jsx`**. 
 
 **Example: `components/site-header.jsx`**
 ```tsx
@@ -160,7 +160,8 @@ export function SiteHeader() {
 
 - [Next.js Documentation](https://nextjs.org/docs)  
 - [Learn Next.js (official tutorial)](https://nextjs.org/learn)  
-- [shadcn/ui Documentation](https://ui.shadcn.com/docs)  
+- [shadcn/ui Documentation](https://ui.shadcn.com/docs) 
+- [Dark Mode Tutorial](https://ui.shadcn.com/docs/dark-mode/next)
 - [next-themes GitHub](https://github.com/pacocoursey/next-themes)  
 
 ---
